@@ -8,8 +8,8 @@ MVP of the sodot node SDK in an AWS Lambda function
 
 ## Install AWS SAM CLI
 
-The AWS Serverless Application Model (SAM) is an open-source framework for building serverless applications. It provides shorthand syntax to express functions, APIs, databases, and event
-source mappings.
+**IMPORTANT**
+SAM commands MUST be run from the root directory of the project
 
 ### macOS
 
