@@ -64,7 +64,7 @@ vi src/.env
 ```
 
 You can use the SAM CLI to invoke your Lambda functions locally. This command simulates an actual call to your Lambda function. Remember to use the `-e` flag to provide the path to your
-test event JSON file and `--env-vars` to provide the environment variables:
+test event JSON file and `-n` to provide the environment variables:
 
 ```
 sam local invoke SodotLambdaFunction -e src/event/test-event.json -n src/.env
