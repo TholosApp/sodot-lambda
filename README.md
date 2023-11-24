@@ -48,6 +48,14 @@ cd sodot-lambda
 
 ### Build the application
 
+#### Set the Sodot NPM token
+
+Before you can `npm install` you must set the NPM_TOKEN bash variable
+
+```bash
+export NPM_TOKEN=TOKEN_HERE
+```
+
 Install the `node_modules` and then use SAM to build the docker image for the Lambda
 
 ```bash
