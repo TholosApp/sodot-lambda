@@ -1,5 +1,8 @@
-.aws-sam/
-.npmrc
-.npmignore
-node_modules/
-package-lock.json
+*.aws-sam
+node_modules
+**node_modules/
+
+*.npmrc
+*.npmignore
+
+.vscode/
