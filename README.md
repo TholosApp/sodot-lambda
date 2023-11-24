@@ -5,6 +5,7 @@ MVP of the sodot node SDK in an AWS Lambda function
 
 - [Node.js 20.x installed](https://nodejs.org/en/download/)
 - [Docker installed](https://docker.com/products/docker-desktop)
+- [Homebrew (if on macOS)](https://brew.sh/)
 
 ## Install AWS SAM CLI
 
@@ -17,7 +18,6 @@ SAM commands MUST be run from the root directory of the project
 Open a terminal and run the following commands:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew tap aws/tap
 brew install aws-sam-cli
 ```
