@@ -59,6 +59,7 @@ export NPM_TOKEN=TOKEN_HERE
 Install the `node_modules` and then use SAM to build the docker image for the Lambda
 
 ```bash
+cd src
 npm install
 sam build --use-container
 ```
