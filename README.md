@@ -9,6 +9,7 @@ MVP of the sodot node SDK in an AWS Lambda function
 ## Install AWS SAM CLI
 
 **IMPORTANT**
+
 SAM commands MUST be run from the root directory of the project
 
 ### macOS

@@ -6,7 +6,7 @@ Resources:
   SodotLambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: sodot/
+      CodeUri: src/
       Handler: app.lambdaHandler
       Runtime: nodejs20.x
       Architectures:
@@ -14,13 +14,6 @@ Resources:
       Environment:
         Variables:
           SODOT_API_KEY: !Ref SodotApiKey
-      Events:
-        CreateRoom:
-          Type: Api
-          Properties:
-            RestApiId: !Ref TholosApi
-            Path: /room
-            Method: POST
     Metadata:
       BuildMethod: esbuild
       BuildProperties:
