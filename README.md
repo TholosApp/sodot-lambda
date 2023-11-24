@@ -61,7 +61,7 @@ Install the `node_modules` and then use SAM to build the docker image for the La
 ```bash
 cd src
 npm install
-sam build --use-container
+sam build
 ```
 
 ### Invoke the Lambda Function Locally
